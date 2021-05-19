@@ -25,6 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw;
+    font-family: 'Karla', sans-serif;
 }
 
 .logo img {
@@ -96,18 +97,18 @@ footer{
 
 .butterfly {
     position: absolute;
-    width: 5px;
+    width: 50px;
     top: 90vh;
     left: 90vw;
-    filter: brightness(10%);
-    animation: voar 20s linear infinite;
+    filter: brightness(20%);
+    animation: voar 10s linear infinite;
 }
 
-@keyframes voar {
-    0% {
+@keyframes voar{
+    0%{
         transform: translate(0,0);
     }
-    100% {
-        transform: translate(-90vw, -90vh)
+    100%{
+        transform: translate(-90vw, -90vh);
     }
 }
