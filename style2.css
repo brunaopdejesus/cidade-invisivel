@@ -64,24 +64,58 @@ main h1 {
     flex-grow: 1;
     font-size: 90px;
     font-family: 'Francois One', sans-serif;
+    -webkit-text-stroke: 15xp white;
+    color: transparent;
+    text-shadow: 10px 25px 0px rgb(228, 215, 215);
 }
-
-div {
+  
+.rotated {
+    transform: rotate(270deg);
     width: 80px;
     height: 80px;
     flex-grow: 1;
     color: red;
+    text-shadow: 1px 1px 0px rgb(122, 66, 66);
     font-size: 30px;
     margin-left: 140px;
     margin-top: -110px;
 }
-  
-.rotated {
-    transform: rotate(270deg); 
+
+.info{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    width: 50px;
+    justify-content: space-between;
 }
 
+.info p{
+    font-size: 20px;
+    color: white;
+}
+
+.info hr{
+    border-color: red;
+}
+
+#ator{
+    display: flex;
+    flex-direction: column;
+}
+
+#personagem{
+    display: flex;
+    flex-direction: column;
+}
+
+#entidade{
+    display: flex;
+    flex-direction: column;
+}
+
+
 footer{
-    margin-top: 250px;
+    margin-top: 50px;
     text-align: center;
     height: 40px;
 }
