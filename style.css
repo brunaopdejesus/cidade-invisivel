@@ -24,7 +24,7 @@
     height: 100%;
     color: white;
     text-decoration: none;
-    transition: all .3s linear;
+    transition: all .1s linear;
 }
 
 .menu a:hover{
@@ -42,13 +42,12 @@
 }
 
 .submenu{
-    margin-top: 1px;
-    display: none;
+    margin-top: 0px;
     font-size: 12px;
 }
 
 .submenu a{
-    width: 150%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     padding-left: 20px;
@@ -58,12 +57,6 @@
 .submenu a:hover{
     border-left: 10px solid black;
 }
-
-
-
-
-
-
 
 body{
     width: 100vw;
