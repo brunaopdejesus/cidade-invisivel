@@ -10,7 +10,7 @@ body{
     background-color: #00000070;
     background-blend-mode: darken;
     background-size: cover; 
-    background-position: top;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
@@ -68,7 +68,7 @@ header{
 }
  
 main{
-    padding: 20vh 10vh;
+    padding: 12vh 10vh;
     flex-grow: 6;
     
 }
