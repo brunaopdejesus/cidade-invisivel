@@ -6,11 +6,11 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("img/boto.png");
-    background-color: #00000070;
+    background-image: url("img/programação4.jpg");
+    background-color: #00000080;
     background-blend-mode: darken;
     background-size: cover; 
-    background-position: top;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
@@ -27,8 +27,7 @@ header{
 }
  
 .descricao{
-    padding: 0vh -2vw;
-    font-style: italic;
+    padding: 0vh -3vw;
 }
  
 .logo img{
@@ -68,16 +67,14 @@ header{
 }
  
 main{
-    padding: 12vh 10vh;
+    padding: 16vh 10vh;
     flex-grow: 6;
-    
 }
  
 .lenda{
- 
     transform: rotate(270deg);
     color: #D81F26;
-    height: 90px;
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,12 +87,12 @@ main{
 }
  
 main h1{
-    font-size: 120px;
+    font-size: 90px;
     font-family: Helvetica;
     color: #00000000;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(224, 224, 224);
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     /*position: relative;*/
 }
  
@@ -110,12 +107,13 @@ main h1{
     z-index: -1;
 }
 */
+
  
 .textos{
     display: flex;
     flex-direction: row;
     max-width: 500px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
  
 main p{
@@ -134,35 +132,35 @@ main p{
     display: flex;
     flex-direction: column;
     border-right: solid 3px #D81F26;
-    margin-right: 35px;
+    margin-right: 25px;
     width: 150px;
-    font-style: italic;
 }
  
 .ator{
     font-size: 15px;
+    font-style: italic;
 }
 .sobrePersonagem{
     display: flex;
     flex-direction: column;
     border-right: solid 3px #D81F26;
-    margin-right: 35px;
-    width: 120px;
-    font-style: italic;
+    margin-right: 25px;
+    width: 170px;
 }
  
 .personagem{
     font-size: 15px;
+    font-style: italic;
 }
  
 .sobreEntidade{
     display: flex;
     flex-direction: column;
-    font-style: italic;
 }
  
 .entidade{
     font-size: 15px;
+    font-style: italic;
 }
  
 footer{

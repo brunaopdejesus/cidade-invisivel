@@ -18,7 +18,7 @@
     height: 100%;
     color: white;
     text-decoration: none;
-    transition: all .1s linear;
+    transition: all .3s linear;
 }
 
 .menu a:hover{
@@ -38,6 +38,8 @@
 .submenu{
     margin-top: 0px;
     font-size: 12px;
+    display: none;
+    position: absolute;
 }
 
 .submenu a{
@@ -49,5 +51,5 @@
 }
 
 .submenu a:hover{
-    border-left: 10px solid black;
+    border-left: 10px solid rgb(0, 0, 0);
 }
